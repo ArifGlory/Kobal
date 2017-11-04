@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1026576589339",
+    "firebase_url": "https://kobal-d8264.firebaseio.com",
+    "project_id": "kobal-d8264",
+    "storage_bucket": "kobal-d8264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026576589339:android:776e87738875fdc8",
+        "android_client_info": {
+          "package_name": "putra.kobal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026576589339-lvn7t3o18sfjhrqj0ovsctch8c22a11k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "putra.kobal",
+            "certificate_hash": "a31fe555ac96a530d5127580f3f660d1f817d4d0"
+          }
+        },
+        {
+          "client_id": "1026576589339-ikgjur87brqc27ah7356t82trm79sece.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClgHjlGwoxP2yU-nrIr7Ez3T2eMil5zoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026576589339-ikgjur87brqc27ah7356t82trm79sece.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

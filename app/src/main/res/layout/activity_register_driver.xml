@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="putra.kobal.RegisterDriver"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silakan isi data dibawah ini untuk mendaftar"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/logo"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtinfo2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/line_register"
+        android:layout_below="@+id/txtinfo2"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <EditText
+            android:id="@+id/etRegisNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_background1"
+            android:hint="Nama"
+            android:textColor="#000"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="#999999" />
+
+        <EditText
+            android:id="@+id/etRegisEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_background1"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:textColorHint="#999999"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etRegisPlat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_background1"
+            android:hint="Plat Nomor"
+            android:textColor="#000"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="#999999"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etRegisKode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_background1"
+            android:hint="Kode Angkot"
+            android:textColor="#000"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="#999999"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/etRegisPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_background1"
+            android:hint="Password"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:textColorHint="#999999" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih trayek "
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            />
+
+        <Spinner
+            android:padding="10dp"
+            android:id="@+id/sp_trayek"
+            android:entries="@array/listTrayek"
+            android:background="@drawable/et_background1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/btnRegisDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:text="Daftar Driver"
+            android:background="@drawable/btn_back1"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_list_sewa"
+            android:icon="@drawable/logo_angkot1"
+            android:title="Permintaan Sewa" />
+
+        <item
+            android:id="@+id/nav_logoutDriver"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>

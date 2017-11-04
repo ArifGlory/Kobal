@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Kobal</string>
+    <string name="main_activity">Login User</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="listTrayek">
+        <item>Tanjungkarang-Rajabasa</item>
+        <item>TanjungKarang-Sukaraja</item>
+        <item>Sukaraja/Srengsem</item>
+        <item>Tanjungkarang-Garuntang</item>
+        <item>Tanjungkarang-Waykandis(Cream)</item>
+        <item>Tanjungkarang-Waykandis(Pink)</item>
+        <item>Tanjungkarang-Kemiling</item>
+        <item>Tanjungkarang-SamRatulangi</item>
+        <item>Tanjungkarang-PermataBiru</item>
+        <item>Tanjungkarang-Simpang IR Utami</item>
+        <item>Rajabasa-Kemiling  (Kuning orange)</item>
+        <item>Rajabasa-Kemiling (Kuning Pekat)</item>
+        <item>Tanjungkarang-Sukarame</item>
+        <item>Sukaraja-Lempasing</item>
+        <item>PasarCimeng-Lempasing</item>
+
+    </string-array>
+    <string name="title_activity_info_jalur">Map</string>
+    <string name="title_activity_beranda_driver">BerandaDriver</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

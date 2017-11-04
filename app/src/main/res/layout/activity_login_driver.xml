@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="putra.kobal.LoginDriver"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/line_login"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <EditText
+            android:id="@+id/etEmailDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/akun"
+            android:background="@drawable/et_background1"
+            android:hint="  Email Driver"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:textColorHint="#999999" />
+
+
+        <EditText
+            android:id="@+id/etPassDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_background1"
+            android:drawableLeft="@drawable/password"
+            android:hint="Password"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:textColorHint="#999999" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLoginDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:text="LOGIN"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:background="@drawable/btn_back1"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btnDaftarDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:text="DAFTAR"
+                android:onClick="keDaftarDriver"
+                android:textColor="#000"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:background="@drawable/btn_back1"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnKeLoginDriver3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:text="Ke Login User"
+        android:onClick="keLoginUser"
+        android:layout_alignParentBottom="true"
+        android:textColor="#000"
+        android:background="@drawable/btn_back1"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

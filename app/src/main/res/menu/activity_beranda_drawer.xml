@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"/>
+
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_open_with_black_24dp"
+            android:title="Info Jalur" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/logo_angkot1"
+            android:title="Sewa Angkot" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Bantuan" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
