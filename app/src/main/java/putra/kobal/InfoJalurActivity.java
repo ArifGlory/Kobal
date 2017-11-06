@@ -1682,9 +1682,5 @@ public class InfoJalurActivity extends FragmentActivity implements OnMapReadyCal
         }
     };
 
-    @Override
-    public void onBackPressed() {
-        //super.onBackPressed();
-        mpopup.dismiss();
-    }
+
 }
