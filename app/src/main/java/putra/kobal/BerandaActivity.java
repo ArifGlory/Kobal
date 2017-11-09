@@ -134,6 +134,8 @@ public class BerandaActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.nav_manage) {
+            i = new Intent(getApplicationContext(),BantuanActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_logout) {
             fAuth.signOut();

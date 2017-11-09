@@ -64,8 +64,11 @@
         <activity
             android:name=".PermintaanSewa"
             android:label="Permintaan Sewa" />
-        <activity android:name=".DetailPermintaan"
-            android:label="Detail Permintaan"></activity>
+        <activity
+            android:name=".DetailPermintaan"
+            android:label="Detail Permintaan" />
+        <activity android:name=".BantuanActivity"
+            android:label="Bantuan"></activity>
     </application>
 
 </manifest>
